@@ -24,8 +24,26 @@ represented with the help of M ×N sparse parity check matrix
 rows and 6 columns; consists of 1’s and 0’s is shown in the
 Equation (1).</p>
 <p align="center">
-<img src="https://user-images.githubusercontent.com/73669849/196792234-72039c2d-b428-4824-ad01-b8e052ece533.JPG" width="300" height="300" title="hover text" alt="accessibility text">
+<img src="https://user-images.githubusercontent.com/73669849/196792234-72039c2d-b428-4824-ad01-b8e052ece533.JPG" width="200" height="300">
 </p>
 <p align = "center">
 Fig.1 - Tanner Graph
 </p>
+
+<p align="justify">
+In this research work, the focus is to design the novel check
+node unit (CNU) architecture and to replace the existing CNU
+architecture of LDPC decoder with it. This will improve the
+performance of the complete decoder with reduced area and
+latency. The conventional CNU architectures compute both
+the frst & second minimum values and exchange it with the
+variable node unit (VNU) which requires more resources. In
+order to reduce the usage of resources, the novel architecture
+computes only the frst minimum in the conventional way and
+the second minimum is computed by adding a small value
+alpha (α) to it. Rest of this writeup is organized as follows: Section II presents
+the related work. The proposed novel CNU architecture is
+discussed in Section III. The results are analyzed in Section
+IV. Finally, the conclusion of the paper is given in Section V  
+</p>
+
