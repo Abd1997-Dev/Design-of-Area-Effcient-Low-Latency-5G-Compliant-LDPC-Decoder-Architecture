@@ -27,5 +27,5 @@ Equation (1).</p>
 <img src="https://user-images.githubusercontent.com/73669849/196792234-72039c2d-b428-4824-ad01-b8e052ece533.JPG" width="300" height="300" title="hover text" alt="accessibility text">
 </p>
 <p align = "center">
-Fig.1 - 4K Mountains Wallpaper
+Fig.1 - Tanner Graph
 </p>
