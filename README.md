@@ -1,7 +1,7 @@
 # Design of Area Effcient Low Latency 5G Compliant LDPC Decoder Architecture
 ## This is my MTech Thesis Dissertation Topic. Lets discuss about its implementation.
 **Abstract** : <p align="justify"> &emsp; This paper proposes a low-complexity check node unit architecture for 5G new radio (5G-NR) compliant lowdensity parity-check (LDPC) decoder. The complexity of the check node unit architecture is reduced by computing the frst minimum value in the conventional way and second minimum value by adding a small value alpha (α) to frst minimum value. The bit error rate (BER) versus signal to noise ratio (SNR) performance analysis graph shows that this second minimum approximation (SMA) decoding method gives a reasonable error while comparing it with conventional min-sum and offset minsum decoding methods. A novel architecture is presented and synthesized on Xilinx Artix-VII FPGA board. The synthesis results show that proposed design provides 45.5% reduction in number of LUTs along with 24.8% reduction in data path delay than state-of-the-art architectures. Thus, the proposed check node unit architecture with second minimum approximation decoding algorithm outperforms all the other existing architectures. Index Terms—Low-density Parity-Check (LDPC) codes, Check Node Unit (CNU) architecture, 5G new radio (5G-NR), Communication systems.</p>
-**Introduction** : <p align="justify"> The information bits are encoded & modulated at the
+**Introduction** : <p align="justify"> &emsp; The information bits are encoded & modulated at the
 sending side, transmitted through the wireline or wireless
 channel, and demodulated & decoded at the receiving side.
 The noise may get added to the encoded information while
@@ -31,7 +31,7 @@ Fig.1 - Tanner Graph
 </p>
 
 <p align="justify">
-In this research work, the focus is to design the novel check
+&emsp; In this research work, the focus is to design the novel check
 node unit (CNU) architecture and to replace the existing CNU
 architecture of LDPC decoder with it. This will improve the
 performance of the complete decoder with reduced area and
@@ -41,7 +41,10 @@ variable node unit (VNU) which requires more resources. In
 order to reduce the usage of resources, the novel architecture
 computes only the frst minimum in the conventional way and
 the second minimum is computed by adding a small value
-alpha (α) to it. Rest of this writeup is organized as follows: Section II presents
+alpha (α) to it. </p>
+ 
+<p align="justify">
+&emsp;Rest of this writeup is organized as follows: Section II presents
 the related work. The proposed novel CNU architecture is
 discussed in Section III. The results are analyzed in Section
 IV. Finally, the conclusion of the paper is given in Section V  
