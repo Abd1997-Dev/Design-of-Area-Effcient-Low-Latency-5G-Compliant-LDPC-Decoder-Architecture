@@ -51,7 +51,7 @@ IV. Finally, the conclusion of the paper is given in Section V
 </p>
 
 **RELATED WORK** : <p align="justify">
-The LDPC decoder design requires the effcient way to
+&emsp;The LDPC decoder design requires the effcient way to
 compute the frst and second minimum values from the given
 set of inputs. The computation of the frst minimum value is
 easier; but the computation of the second minimum requires
@@ -63,7 +63,7 @@ of comparisons and tree based approach achieves higher speed
 at lower hardware cost.</p>
  
  <p align="justify">
-The sum-product decoding algorithm has high performance
+&emsp;The sum-product decoding algorithm has high performance
 metrics and in turn it requires high hardware resources also
 than any other decoding algorithms. In order to achieve high
 throughput even with high hardware resource usage a multicore architecture is proposed [4]. But the cost of the system
@@ -81,7 +81,7 @@ achieve better error correcting performance than conventional
 decoding algorithm.</p>
   
   <p align="justify">
-In order to reduce the cost and optimize the throughput,
+&emsp;In order to reduce the cost and optimize the throughput,
 the generated messages are stored using a lower precision by
 truncating some bits [6]. The truncation happens only after
 the generated messages are updated by the processing units.
@@ -92,7 +92,7 @@ as bottlenecks. The conﬂicts occurred due to these bottlenecks
 are addressed in [7] by providing a ﬂooding schedule.</p>
    <p align="justify">
     
-Though the min-sum decoding algorithm has reduced hardware complexity, it also has reduced performance metrics. To
+&emsp;Though the min-sum decoding algorithm has reduced hardware complexity, it also has reduced performance metrics. To
 overcome this, the offset min-sum [8] - [11] and normalized min-sum [12] decoding algorithms are introduced. The
 physical layer of the telecommunication systems are evolving
 rapidly, so the reprogrammable FPGA based implementation
