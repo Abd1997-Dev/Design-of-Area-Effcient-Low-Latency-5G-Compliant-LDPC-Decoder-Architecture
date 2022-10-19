@@ -1,7 +1,7 @@
 # Design of Area Effcient Low Latency 5G Compliant LDPC Decoder Architecture
 ## This is my MTech Thesis Dissertation Topic. Lets discuss about its implementation.
 **Abstract** : <p align="justify"> &emsp; This paper proposes a low-complexity check node unit architecture for 5G new radio (5G-NR) compliant lowdensity parity-check (LDPC) decoder. The complexity of the check node unit architecture is reduced by computing the frst minimum value in the conventional way and second minimum value by adding a small value alpha (α) to frst minimum value. The bit error rate (BER) versus signal to noise ratio (SNR) performance analysis graph shows that this second minimum approximation (SMA) decoding method gives a reasonable error while comparing it with conventional min-sum and offset minsum decoding methods. A novel architecture is presented and synthesized on Xilinx Artix-VII FPGA board. The synthesis results show that proposed design provides 45.5% reduction in number of LUTs along with 24.8% reduction in data path delay than state-of-the-art architectures. Thus, the proposed check node unit architecture with second minimum approximation decoding algorithm outperforms all the other existing architectures. Index Terms—Low-density Parity-Check (LDPC) codes, Check Node Unit (CNU) architecture, 5G new radio (5G-NR), Communication systems.</p>
-**Introduction** : <p align="justify"> &emsp; The information bits are encoded & modulated at the
+**INTRODUCTION** : <p align="justify"> &emsp; The information bits are encoded & modulated at the
 sending side, transmitted through the wireline or wireless
 channel, and demodulated & decoded at the receiving side.
 The noise may get added to the encoded information while
@@ -50,3 +50,54 @@ discussed in Section III. The results are analyzed in Section
 IV. Finally, the conclusion of the paper is given in Section V  
 </p>
 
+**RELATED WORK** : <p align="justify">
+The LDPC decoder design requires the effcient way to
+compute the frst and second minimum values from the given
+set of inputs. The computation of the frst minimum value is
+easier; but the computation of the second minimum requires
+a better and effcient hardware architecture. There are two
+basic methods to fnd the frst two minimums from the given
+inputs like sorting-based approach and tree-based approach
+[3]. Basically, the sorting based approach requires less number
+of comparisons and tree based approach achieves higher speed
+at lower hardware cost.</p>
+ 
+ <p align="justify">
+The sum-product decoding algorithm has high performance
+metrics and in turn it requires high hardware resources also
+than any other decoding algorithms. In order to achieve high
+throughput even with high hardware resource usage a multicore architecture is proposed [4]. But the cost of the system
+will be high, if a multicore architecture is used. Therefore, to
+avoid it, the conventional min-sum decoding algorithm with
+reduced hardware complexity is introduced. These traditional
+decoding algorithms for LDPC codes generate and exchange
+messages between check node and variable node only based on
+loglikelihood ratio (LLR) of bits, and correlations introduced
+by modulation are not utilized. In [5], symbol based approach
+is used i.e. the correlation factor introduced while modulating
+the signals are taken into account which results in an alternative low-cost way to better utilize available information. These
+symbol based sum product and min sum (S-SPA and S-MSA)
+achieve better error correcting performance than conventional
+decoding algorithm.</p>
+  
+  <p align="justify">
+In order to reduce the cost and optimize the throughput,
+the generated messages are stored using a lower precision by
+truncating some bits [6]. The truncation happens only after
+the generated messages are updated by the processing units.
+The pipeline architectures are faster than the conventional
+architectures provided the data and control hazards are not
+there. But, all the pipeline architectures have these two hazards
+as bottlenecks. The conﬂicts occurred due to these bottlenecks
+are addressed in [7] by providing a ﬂooding schedule.</p>
+   <p align="justify">
+    
+Though the min-sum decoding algorithm has reduced hardware complexity, it also has reduced performance metrics. To
+overcome this, the offset min-sum [8] - [11] and normalized min-sum [12] decoding algorithms are introduced. The
+physical layer of the telecommunication systems are evolving
+rapidly, so the reprogrammable FPGA based implementation
+[9] of the 5G LDPC decoders are required. It will reduce the
+cost and time to implement such physical layers. Further, the
+length of the cycles is measured to change the number of
+iterations dynamically is proposed in [13] as reweighted offset
+min-sum algorithm (ROMS).</p>
