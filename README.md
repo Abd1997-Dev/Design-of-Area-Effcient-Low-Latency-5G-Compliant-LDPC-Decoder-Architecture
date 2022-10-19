@@ -7,7 +7,7 @@
  ***Index Terms*** : <p align="justify"> &emsp; Low-density Parity-Check (LDPC) codes, Check Node Unit (CNU) architecture, 5G new radio (5G-NR), Communication systems.</p>
  
  
-**INTRODUCTION** : <p align="justify"> &emsp; The information bits are encoded & modulated at the
+**I INTRODUCTION** : <p align="justify"> &emsp; The information bits are encoded & modulated at the
 sending side, transmitted through the wireline or wireless
 channel, and demodulated & decoded at the receiving side.
 The noise may get added to the encoded information while
@@ -56,7 +56,7 @@ discussed in Section III. The results are analyzed in Section
 IV. Finally, the conclusion of the paper is given in Section V  
 </p>
 
-**RELATED WORK** : <p align="justify">
+**II RELATED WORK** : <p align="justify">
 &emsp;The LDPC decoder design requires the effcient way to
 compute the frst and second minimum values from the given
 set of inputs. The computation of the frst minimum value is
