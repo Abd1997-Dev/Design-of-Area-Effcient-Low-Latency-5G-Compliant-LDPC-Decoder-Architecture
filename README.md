@@ -1,2 +1,2 @@
-# Design-of-Area-Effcient-Low-Latency-5G-Compliant-LDPC-Decoder-Architecture
+# Design of Area Effcient Low Latency 5G Compliant LDPC Decoder Architecture
 It is my MTech Thesis Dissertation Topic. Lets discuss about its implementation.
