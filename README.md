@@ -30,7 +30,7 @@ represented with the help of M ×N sparse parity check matrix
 rows and 6 columns; consists of 1’s and 0’s is shown in the
 Equation (1).</p>
 
-<p align="center"> ` &emsp; [1 2 3]
+<p align="center">  &emsp; `[1 2 3]
  A = [1 2 3]
  &emsp; [1 2 3]`
 </p>
