@@ -36,6 +36,22 @@ Equation (1).</p>
 <img src="https://user-images.githubusercontent.com/73669849/196871144-200e9fda-32da-4c6c-8c95-f72ac177c0b4.png" width="400" height="150">
 </p>
 
+<p align="justify"> &emsp;
+The corresponding Tanner Graph representation is shown in
+Fig. 1. The columns which are also known as variable nodes
+(VN); are denoted by using the variables C1, C2, · · · C6. The
+rows which are also known as check nodes (CN); are denoted
+by using the variables R1, R2, · · · R4. The line connecting the
+VN and CN are termed as edges and these are based on the
+position of non-zero elements of parity check matrix (H). The
+number of lines (edges) connected to each node is known as
+node’s degree. The decoding of the LDPC codes are performed
+by iteratively generating and exchanging messages between
+the variable nodes and check nodes, via the lines of the Tanner
+graph. There are different decoding algorithms and schedules
+to determine the specifc operation of each node, the format
+of the messages and the order in which they are exchanged.
+</p>
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/73669849/196792234-72039c2d-b428-4824-ad01-b8e052ece533.JPG" width="200" height="300">
