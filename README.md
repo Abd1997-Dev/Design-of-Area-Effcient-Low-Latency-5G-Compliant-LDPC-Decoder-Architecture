@@ -82,7 +82,7 @@ discussed in Section III. The results are analyzed in Section
 IV. Finally, the conclusion of the paper is given in Section V  
 </p>
 
-**II. RELATED WORK** : <p align="justify">
+### **II. RELATED WORK** : <p align="justify">
 &emsp;The LDPC decoder design requires the effcient way to
 compute the frst and second minimum values from the given
 set of inputs. The computation of the frst minimum value is
@@ -134,7 +134,7 @@ length of the cycles is measured to change the number of
 iterations dynamically is proposed in [13] as reweighted offset
 min-sum algorithm (ROMS).</p>
 
-**III. PROPOSED CHECK NODE UNIT ARCHITECTURE**: <p align="justify">
+### **III. PROPOSED CHECK NODE UNIT ARCHITECTURE**: <p align="justify">
 &emsp;The architecture of the proposed CNU consists of three major building blocks such as minimum value computation unit
 (MVCU), sign computation unit (SU), and two’s complement
 to sign magnitude/sign magnitude to two’s complement unit
@@ -322,7 +322,7 @@ of LUTs than [8] & [11] and [10] respectively. It also has
 [11] and [10] respectively. Thus, the proposed CNU architecture with SMA decoding
 algorithm outperforms all the other existing architectures.</p>
 
-**V. CONCLUSION**: <p align="justify">
+### **V. CONCLUSION**: <p align="justify">
 &emsp; In this paper, an area effcient low latency check node
 unit architecture for 5G new radio (5G-NR) compliant LDPC
 decoder is proposed. This can be achieved by computing only
@@ -339,7 +339,7 @@ has used less area and consumed less time than the existing
 architectures.</p>
 
 
-**REFERENCES**: <p align="justify">
+### **REFERENCES**: <p align="justify">
 &emsp;
  [1] R. Gallager, “Low-density parity-check codes,” in IRE Trans. Inf.
 Theory, vol. 8, no. 1, pp. 21–28, Jan. 1962.</p>
