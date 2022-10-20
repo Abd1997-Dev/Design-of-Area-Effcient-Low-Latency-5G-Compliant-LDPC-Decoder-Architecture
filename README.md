@@ -8,8 +8,8 @@
  
  
 **I. INTRODUCTION** : <p align="justify"> &emsp; The information bits are encoded & modulated at the
-`sending side, transmitted through the wireline or wireless
-channel, and demodulated & decoded at the receiving side.`
+sending side, transmitted through the wireline or wireless
+channel, and demodulated & decoded at the receiving side.
 The noise may get added to the encoded information while
 transmitting and it will cause an error in the received signal.
 So, the system has to get rid of the error. For that, a better
@@ -29,6 +29,12 @@ represented with the help of M ×N sparse parity check matrix
 (PCM) H as well as Tanner Graph. The example PCM with 4
 rows and 6 columns; consists of 1’s and 0’s is shown in the
 Equation (1).</p>
+
+<p align="center"> ` &emsp; [1 2 3]
+ A = [1 2 3]
+ &emsp; [1 2 3]`
+</p>
+
 <p align="center">
 <img src="https://user-images.githubusercontent.com/73669849/196792234-72039c2d-b428-4824-ad01-b8e052ece533.JPG" width="200" height="300">
 </p>
