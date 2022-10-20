@@ -8,8 +8,8 @@
  
  
 **I. INTRODUCTION** : <p align="justify"> &emsp; The information bits are encoded & modulated at the
-sending side, transmitted through the wireline or wireless
-channel, and demodulated & decoded at the receiving side.
+`sending side, transmitted through the wireline or wireless
+channel, and demodulated & decoded at the receiving side.`
 The noise may get added to the encoded information while
 transmitting and it will cause an error in the received signal.
 So, the system has to get rid of the error. For that, a better
