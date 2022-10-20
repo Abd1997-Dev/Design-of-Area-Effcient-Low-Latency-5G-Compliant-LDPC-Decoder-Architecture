@@ -33,7 +33,7 @@ Equation (1).</p>
 
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/73669849/196871144-200e9fda-32da-4c6c-8c95-f72ac177c0b4.png" width="200" height="300">
+<img src="https://user-images.githubusercontent.com/73669849/196871144-200e9fda-32da-4c6c-8c95-f72ac177c0b4.png" width="300" height="100">
 </p>
 
 
