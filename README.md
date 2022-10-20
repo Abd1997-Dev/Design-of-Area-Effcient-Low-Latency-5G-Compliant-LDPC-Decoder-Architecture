@@ -164,3 +164,83 @@ the help of 2:1 multiplexer as shown in 2 and 3 respectively.
 <img src="https://user-images.githubusercontent.com/73669849/196873156-ab22b9f4-abc7-443d-af13-2f3c5bd67da5.png" >
 </p>
 
+<p align="justify">
+&emsp; The 4-input minimum value unit is shown in Fig. 3. It
+consists of three 2-input MVUs and an adder. The two 2-input
+MVUs which are named as A and B are used to compute the
+minimum values from the given inputs and the third MVU is
+used to compute the minimum of mvA and mvB. The output
+of the third MVU is considered as frst minimum min1. The
+second minimum value min2 is computed by adding a small
+value alpha (α) to the frst minimum.
+ </p>
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/73669849/196877396-8380992d-0994-4c88-b583-1ecb17ab3aa1.JPG" >
+</p>
+<p align = "center">
+Fig.3 - Architecture of 4-input minimum value unit
+</p>
+
+<p align="justify">
+&emsp;
+Similarly, the 8-input MVU is constructed by using seven
+2-input MVUs and an adder. The 16-input MVU is constructed by using ffteen 2-input MVUs and an adder. In general, the
+K-input MVU requires (K-1) number of 2-input MVUs and
+an adder.</p>
+
+![Building_block_19_better](https://user-images.githubusercontent.com/73669849/196877827-3759e3ef-0a09-4f9f-9f74-ab96d6111e41.JPG)
+
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/73669849/196877827-3759e3ef-0a09-4f9f-9f74-ab96d6111e41.JPG" >
+</p>
+<p align = "center">
+Fig.4 - Architecture of 20-input minimum value unit
+</p>
+
+<p align="justify">
+&emsp;
+Since our design requires 20-input MVU (MVU-20), it can
+be constructed by nineteen 2-input MVUs and an adder as
+shown in Fig. 4. The ten 2-input MVUs are considered as stage
+A where it takes primary inputs and computes the minimum
+value. The remaining nine 2-input MVUs are considered as
+Stage B where it takes the intermediate minimum values and
+computes the frst minimum value min1. The 5-bit adder
+is considered as stage C where it adds Alpha (α) to frst
+minimum value to compute second minimum value min2. </p>
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/73669849/196878299-dedaca96-1da0-4e7e-8732-90b01f59c8cc.JPG" >
+</p>
+<p align = "center">
+Fig.5 - Minimum value computation unit architecture
+</p>
+
+<p align="justify">
+&emsp;
+Now, the MVU-20 is connected in a manner to construct the
+MVCU as shown in Fig. 5. It computes frst minimum min1
+and second minimum min2 using the MVU-20 module. It
+subtracts the offset value 4′b1 from min1 and min2. Then
+the most signifcant bit (MSB) is checked to fnd whether the subtracted value is positive or negative. If the subtracted value
+is negative, then the output of 2:1 Mux is zero otherwise
+it is the actual subtracted value. Now, all the output of the
+MVCU is replaced with min1 expect the index of min1; this
+magnitude of min1 is replaced by min2. This is done by using
+20 equalizers and 2:1 multiplexers.
+</p>
+
+&emsp; ***B. Sign Unit*** : <p align="justify"> &emsp; The sign unit takes all the MSB of the given inputs and
+EX-OR those bits to compute a product bit. Then, the product
+bit is EX-ORed with each MSB to obtain the sign processed
+outputs as shown in Fig. 6. These sign processed outputs are
+concatenated with the outputs of MVCU in the MSB position.</p>
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/73669849/196879128-90bfb2ce-7660-407a-bcd2-690e4eb40a97.JPG" >
+</p>
+<p align = "center">
+Fig.6 - Sign computation unit architecture
+</p>
