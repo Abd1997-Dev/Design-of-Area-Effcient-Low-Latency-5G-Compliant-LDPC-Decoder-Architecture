@@ -30,12 +30,12 @@ represented with the help of M ×N sparse parity check matrix
 rows and 6 columns; consists of 1’s and 0’s is shown in the
 Equation (1).</p>
 
-<p align="center">  &emsp; `[1 2 3]
- --
- A = [1 2 3]
- --
- &emsp; [1 2 3]`
+
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/73669849/196871144-200e9fda-32da-4c6c-8c95-f72ac177c0b4.png" width="200" height="300">
 </p>
+
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/73669849/196792234-72039c2d-b428-4824-ad01-b8e052ece533.JPG" width="200" height="300">
