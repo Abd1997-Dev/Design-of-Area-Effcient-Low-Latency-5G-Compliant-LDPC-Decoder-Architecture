@@ -158,3 +158,9 @@ Fig.2 - Architecture of 2-input minimum value unit
 comparator and MV is computed based on the index value with
 the help of 2:1 multiplexer as shown in 2 and 3 respectively.
 </p>
+
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/73669849/196873156-ab22b9f4-abc7-443d-af13-2f3c5bd67da5.png" >
+</p>
+
