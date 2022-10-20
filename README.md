@@ -131,3 +131,30 @@ cost and time to implement such physical layers. Further, the
 length of the cycles is measured to change the number of
 iterations dynamically is proposed in [13] as reweighted offset
 min-sum algorithm (ROMS).</p>
+
+**III. PROPOSED CHECK NODE UNIT ARCHITECTURE**: <p align="justify">
+&emsp;The architecture of the proposed CNU consists of three major building blocks such as minimum value computation unit
+(MVCU), sign computation unit (SU), and two’s complement
+to sign magnitude/sign magnitude to two’s complement unit
+(TCSM/SMTC) which are detailed in the following subsections.</p>
+
+&emsp; ***A. Minimum Value Computation Unit*** : <p align="justify"> &emsp; The basic building block of MVCU is 20-input minimum
+value unit (MVU-20). It is designed using 2-input minimum
+value unit (MVU) as shown in Fig. 2. It compares two 5-bit
+inputs and gives the minimum value and index as outputs.</p>
+
+
+
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/73669849/196872616-208b8ed3-a1c2-4fd1-9052-3971a58f00c9.JPG" >
+</p>
+<p align = "center">
+Fig.2 - Architecture of 2-input minimum value unit
+</p>
+
+<p align="justify">
+&emsp; The index value is computed by comparing two inputs using
+comparator and MV is computed based on the index value with
+the help of 2:1 multiplexer as shown in 2 and 3 respectively.
+</p>
