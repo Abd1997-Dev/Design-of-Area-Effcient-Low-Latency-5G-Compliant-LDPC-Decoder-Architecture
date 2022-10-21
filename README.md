@@ -328,7 +328,7 @@ of LUTs than [8] & [11] and [10] respectively. It also has
 [11] and [10] respectively. Thus, the proposed CNU architecture with SMA decoding
 algorithm outperforms all the other existing architectures.</p>
 
-### **V. CONCLUSION *:
+### V. CONCLUSION:
 <p align="justify">
 &emsp; In this paper, an area effcient low latency check node
 unit architecture for 5G new radio (5G-NR) compliant LDPC
